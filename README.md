@@ -18,7 +18,7 @@ rosdep install -i --from-path src --rosdistro humble -y
 ```
 
 ```sh
-colcon build --package-select <PACKAGE_NAME>
+colcon build --packages-select <PACKAGE_NAME>
 ```
 
 ```sh
@@ -37,4 +37,12 @@ ros2 run turtlesim turtlesim_node
 
 ```sh
 ros2 run <PACKAGE_NAME> <PACKAGE_NODE>
+```
+
+## For more information
+
+```sh
+ros2 node list
+ros2 service list
+ros2 topic list
 ```
