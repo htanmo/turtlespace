@@ -5,7 +5,7 @@ Package to control turtle using wasd keys.
 ```text
   w
 a   d
-  d
+  s
 ```
 
 ## How to use
